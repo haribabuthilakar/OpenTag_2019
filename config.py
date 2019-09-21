@@ -15,7 +15,7 @@ class DefaultConfig(object):
     embedding_dim = 768
     hidden_dim = 1024
     tagset_size = 4
-    use_gpu = True  # user GPU or not
+    use_gpu = False  # user GPU or not
     num_workers = 4  # how many workers for loading data
     print_freq = 100  # print info every N batch
 
