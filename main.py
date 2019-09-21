@@ -19,7 +19,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.addHandler(logging.StreamHandler(sys.stdout))
 
-def get_attributes(path='./data/raw.txt'):
+def get_attributes(path='.ot/data/raw.txt'):
     atts = []
     with open(path, 'r') as f:
         for line in f.readlines():
